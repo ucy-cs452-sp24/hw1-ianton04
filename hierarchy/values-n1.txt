@@ -1,0 +1,65 @@
+DRAM Latency
+
+Using buffer size of 200.000MiB
+Each iteration took 146.5 base frequency clocks (       66.6    ns)
+
+---------------------------------------------------------------------------------------------------------------------------
+
+DRAM Bandwidth
+
+Measuring Maximum Memory Bandwidths for the system
+Will take several minutes to complete as multiple injection rates will be tried to get the best bandwidth
+Bandwidths are in MB/sec (1 MB/sec = 1,000,000 Bytes/sec)
+Using all the threads from each core if Hyper-threading is enabled
+Using traffic with the following read-write ratios
+ALL Reads        :      78618.77
+3:1 Reads-Writes :      72544.37
+2:1 Reads-Writes :      71436.71
+1:1 Reads-Writes :      70795.81
+Stream-triad like:      70901.09
+
+---------------------------------------------------------------------------------------------------------------------------
+
+DRAM Capacity
+
+MemTotal:       264029448 kB
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+Disk Latency
+
+--- /tmp/ (ext3 /dev/sda3 62.4 GiB) ioping statistics ---
+19 requests completed in 4.37 ms, 76 KiB read, 4.34 k iops, 17.0 MiB/s
+generated 20 requests in 19.0 s, 80 KiB, 1 iops, 4.21 KiB/s
+min/avg/max/mdev = 208.0 us / 230.2 us / 264.6 us / 18.3 us
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+Disk Bandwidth
+
+READ: bw=99.6MiB/s (104MB/s), 99.6MiB/s-99.6MiB/s (104MB/s-104MB/s), io=1024MiB (1074MB), run=10278-10278msec
+
+bw=104MB/s
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Disk Capoacity
+
+device size with M = 1000*1000:     1000204 MBytes (1000 GB)
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Network Bandwidth
+
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  2] 0.0000-9.9998 sec  3.17 GBytes  2.72 Gbits/sec   0.007 ms 0/2314137 (0%)
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Network Latency
+
+--- node0-link-1 ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 101379ms
+rtt min/avg/max/mdev = 0.084/0.102/0.148/0.012 ms
